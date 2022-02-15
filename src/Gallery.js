@@ -1,0 +1,77 @@
+import reactDom from "react-dom";
+
+function Gallary(props) {
+  return (
+    <div>
+      <div className="container">
+        <div className="row">
+
+          {/* <!-- Column 1 --> */}
+          <div className="col-md">
+
+            Exhibit A
+            <img className="pic img-fluid" alt="" src='pics/image_0.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_1.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_2.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_3.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_4.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_5.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_6.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_7.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_8.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_9.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_10.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_12.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_13.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_42.jpg' />
+          </div>
+
+
+          {/* <!-- Column 2 --> */}
+          <div className="col-md">
+            Exhibit B
+            <img className="pic img-fluid" alt="" src='pics/image_14.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_15.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_16.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_17.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_18.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_19.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_20.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_21.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_22.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_23.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_24.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_25.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_26.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_27.jpg' />
+          </div>
+
+          {/* <!-- Column 3 --> */}
+          <div className="col-md">
+            Exhibit C
+            <img className="pic img-fluid" alt="" src='pics/image_11.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_28.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_29.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_30.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_31.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_32.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_33.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_34.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_35.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_36.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_37.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_38.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_39.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_40.jpg' />
+            <img className="pic img-fluid" alt="" src='pics/image_41.jpg' />
+          </div>
+
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+
+export default Gallary;
